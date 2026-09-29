@@ -4,6 +4,7 @@ O projeto implementa uma animação 2D do sistema solar interior (Sol, Mercúrio
 
 Hierarquia dos Nós:
 Cena / Pipeline Geral:
+
   Fundo: Quadrado dimensionado com a textura do espaço.  
   Sol: Disco centralizado com escala própria.
   Órbita de Mercúrio: Gira em torno do Sol
@@ -12,6 +13,7 @@ Cena / Pipeline Geral:
     Órbita da Lua: Gira ao redor da Terra.aa
     
 Arquivos principais:
+
   final.py: Arquivo principal com a montagem da cena, carregamento das texturas e loop de desenho.
   disk.py: Gera a malha geométrica circular com coordenadas de textura.   
   square.py: Gera a malha geométrica retangular para o fundo.   
